@@ -4,6 +4,8 @@
 
 radarcomp -i 2019051509_00_ODIMH5_PVOL6S_VOL_casra.16.h5 -o cappi_DBZH.h5 -s 1000 -T -M
 
+radarcomp -i 2019051509_00_ODIMH5_PVOL6S_VOL_casra.ropo.h5 -o cappi_DBZH_ropo.h5 -s 1000 -T -M
+
 radarcomp -i 2019051509_00_ODIMH5_PVOL6S_VOL_casra.drqc.h5 -o cappi_DBZH_drqc.h5 -s 1000 -T -M
 
 radarcomp -i 2019051509_00_ODIMH5_PVOL6S_VOL_casra.drqc.h5 -o cappi_DR.h5 -s 1000 -T -M -q DR -g 0.129951 -O -33.1376
